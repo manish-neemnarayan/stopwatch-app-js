@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-100 h-screen bg-red-50 flex flex-col justify-center items-center">
+    <h1 class="text-4xl font-serif font-semibold text-green-500">STOP WATCH</h1>
+    <div class="flex">
+        <div class="w-80 h-80 bg-red-200 flex justify-center items-center">
+            <h2 id="timer" class="text-4xl proportional-nums font-bold">0 : 00</h2>
+        </div>
+        <div class="w-32 h-80 py-8 px-4 bg-green-200 flex flex-col justify-between items-center">
+            <button id="start" class="rounded bg-red-300 border-none text-2xl font-medium px-3">Start</button>
+            <button id="stop" class="rounded bg-red-300 border-none text-2xl font-medium px-3">Stop</button>
+            <button id="reset" class="rounded bg-red-300 border-none text-2xl font-medium px-3">Reset</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
